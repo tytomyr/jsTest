@@ -1,4 +1,4 @@
-function checkIfAllDifferentNumbers (num) {
+function differentNumbers (num) {
     const str = String(num);
     const arr = [];
     for (let x=0; x<str.length; x++){
@@ -14,3 +14,5 @@ function checkIfAllDifferentNumbers (num) {
     } 
     return false
   }
+
+module.exports ={differentNumbers}

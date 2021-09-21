@@ -1,0 +1,29 @@
+{
+  "name": "jstest",
+  "version": "1.0.0",
+  "description": "Jest test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tytomyr/jsTest.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "jest",
+    "unit",
+    "testing"
+  ],
+  "author": "Artur Tytomyr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tytomyr/jsTest/issues"
+  },
+  "homepage": "https://github.com/tytomyr/jsTest#readme",
+  "devDependencies": {
+    "jest": "^27.2.1"
+  }
+}
