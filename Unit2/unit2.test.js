@@ -1,4 +1,5 @@
 const {numsProperty} = require('./unit2')
 test('number of values that satisfy condition is ', ()=> {
-    expect(numsProperty(1456).toBe(`${Number}`))
-})
+    console.log(numsProperty(1,4,5,6))
+    expect(!isNaN(numsProperty(1,4,5,6))).toBe(true)
+}) 
